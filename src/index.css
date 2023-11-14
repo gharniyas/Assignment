@@ -4,10 +4,58 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.custom-checkbox-in>.ant-checkbox-checked>.ant-checkbox-inner{
+background-color: #06b85f !important;
+}
+
+.custom-checkbox-out>.ant-checkbox-checked>.ant-checkbox-inner{
+background-color: #43a903 !important;
+}
+
+.ant-checkbox-checked>.ant-checkbox-inner::after{
+    content: none !important;
+    border: 0;   
+}
+
+.ant-table {
+  border: none !important;
+}
+
+.ant-table td,
+.ant-table th {
+  border: none !important;
+}
+
+th{
+  color: gray !important;
+  background-color: white !important;
+
+}
+td{
+  font-weight:600;
+ 
+}
+
+.ant-table {
+  font-size: 14px !important; 
+}
+
+.ant-table-cell {
+  padding: 5px 12px !important; 
+}
+
+.ant-table-content {
+  max-height: 220px; 
+}
+header{
+  color: #000;
+  font-weight: bold; 
 }
