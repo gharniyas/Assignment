@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e8231829.css",
+    "main.js": "/static/js/main.a38bdab1.js",
+    "static/media/Assiduus_Global_Logo.png": "/static/media/Assiduus_Global_Logo.65f0a339900e82ff8014.png",
+    "static/media/images.png": "/static/media/images.a838fc6616b8dde7d778.png",
+    "index.html": "/index.html",
+    "main.e8231829.css.map": "/static/css/main.e8231829.css.map",
+    "main.a38bdab1.js.map": "/static/js/main.a38bdab1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8231829.css",
+    "static/js/main.a38bdab1.js"
+  ]
+}
